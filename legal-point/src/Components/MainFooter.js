@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import {Image, Row, Col, Container} from 'react-bootstrap';
+import { Row, Col, Container} from 'react-bootstrap';
 import styled from "styled-components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
@@ -9,8 +8,8 @@ const Styles = styled.div`
     .MainFooter {
         background-color: #343a40;
         background-size: cover;
-        height: 450px;
-        margin-top: 50px;
+        height: 350px;
+        margin-top: 0px;
         margin-bottom: 0px;
         padding-left: 100px;
         padding-top: 120px;
@@ -49,16 +48,16 @@ export default class MainFooter extends Component {
       {/* <Image src="holder.js/171x180" rounded /> */}
       <h4>Legal Point</h4>
       <p className="slogan"> Join our Team</p>
-      <p className="slogan"> OnLine Training Material</p>
+      
       <p className="slogan"> Policies</p>
     </Col>
     <Col xs={6} md={4}>
     <h4>Support</h4>
-    <p className="slogan"> Help </p>
+    <p className="slogan"><a href="https://www.youtube.com/user/ChrisStudios" target="_blank"> OnLine Training Material</a></p>
     </Col>
    
     <Col xs={6} md={4}>
-    <h4>Support</h4>
+    <h4>Contact and Help</h4>
     <p className="email"><a href="mailto:littlestart@gmail.com">littlestart@gmail.com</a></p>
     <p className="email"><a href="tel:1-415-705-9104">415 - 7059104</a></p>
     </Col>

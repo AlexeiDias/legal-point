@@ -1,9 +1,10 @@
 import React from 'react'
+import HomeJumbo from "../Components/HomeJumbo"
 
 export default function home() {
     return (
         <div>
-            <hi>home page</hi>
+            <HomeJumbo />
         </div>
     )
 }

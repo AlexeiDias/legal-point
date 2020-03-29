@@ -1,9 +1,10 @@
 import React from 'react'
+import VideographerJumbo from "../Components/VideographerJumbo"
 
 export default function legalVideography() {
     return (
         <div>
-            <h1>Legal lVedeography</h1>
+           <VideographerJumbo />
         </div>
     )
 }

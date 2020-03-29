@@ -1,9 +1,11 @@
 import React from 'react'
+import ReporterJumbo from "../Components/ReporterJumbo"
+
 
 export default function courtReporters() {
     return (
         <div>
-            <h1>Court Reporters</h1>
+             <ReporterJumbo />
         </div>
     )
 }
